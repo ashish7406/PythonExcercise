@@ -8,7 +8,7 @@ def UpdateFileName(filename):
     file1 = open(filename+'.txt', "a")
     text= "Now , {} is adding a new data to the existing file.".format(filename)
     # writing newline character
-    file1.write("\n")
+   
     file1.write(text)
 '''
 Viewing content of the file
